@@ -1,0 +1,33 @@
+name: SM_ESR_isostasy
+channels:
+  - conda-forge
+  - anaconda
+  - defaults
+dependencies:
+  - python=3.8
+  - basemap=1.3.0
+  - geos=3.8.0
+  - pyproj=2.6.1
+  - numpy
+  - statsmodels
+  - pandas
+  - dask
+  - xarray
+  - netcdf4
+  - jupyter
+  - jupyterlab
+  - notebook
+  - ipykernel
+  - ipython=7.29
+  - ipython_genutils
+  - matplotlib-base=3.2.2
+  - ipywidgets
+  - ipympl
+  - pip
+  - scipy
+  - six
+  - pickleshare=0.7.5
+  - proj=6.2.1
+  - pygc=1.2.1
+  - pip:
+    - sklearn
